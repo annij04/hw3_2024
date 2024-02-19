@@ -200,7 +200,8 @@ first div in the grid  and place it in the grid. */
 /* Add your media query here */
 @media screen and (min-width: 800px) {
   /* Step 9: Write the selector/rule property to style the nav element */
-  .navigation {
+  nav {
+    text-align: right;
     grid-column: 5;
     padding: 30px; 
   }
